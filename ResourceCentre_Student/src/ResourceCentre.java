@@ -236,7 +236,6 @@ public class ResourceCentre {
 		}
 		return isLoaned;
 	}
-	
 	public static void loanCamcorder(ArrayList<Camcorder> camcorderList) {
 		ResourceCentre.viewAllCamcorder(camcorderList);
 		String tag = Helper.readString("Enter asset tag > ");
